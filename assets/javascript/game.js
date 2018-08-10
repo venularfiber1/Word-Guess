@@ -81,7 +81,7 @@ function gameOver() {
         document.getElementById('losses').innerHTML = loss++;
         document.getElementById('wrongLetter').innerHTML = " ";
         alert("You ran out of Guesses");
-        playButton.style.visibility = "visible";
+        // playButton.style.visibility = "visible";
     }
 
     if (guess < 0) {
